@@ -1563,7 +1563,7 @@ void PVDecPostProcess(VideoDecControls *decCtrl, uint8 *outputYUV)
 {
     uint8 *outputBuffer;
     outputBuffer = decCtrl->outputFrame;
-    outputYUV;
+    (void)outputYUV;
     decCtrl->outputFrame = outputBuffer;
     return;
 }
